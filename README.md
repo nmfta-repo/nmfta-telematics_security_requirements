@@ -1,6 +1,6 @@
 # NMFTA Request For Proposal Contract Template Language Documents
 
-Cybersecurity requirements for telematics systems developped in collaboration with motor freight carriers, telematics service providers, and cybersecurity experts.
+Cybersecurity requirements for telematics systems developed in collaboration with motor freight carriers, telematics service providers, and cybersecurity experts.
 
 ![NMFTA Logo](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/image1.png)
 
@@ -31,6 +31,6 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 
 # How to Make Contributions
 
-The NMFTA would like these requirements to be as useful as possible. We are open to refining them based on your feedback and/or changes which you would like to see made. However, the NMFTA does not want other custom versions of the requirements to be proliferated. This is the reason for the [Creative Commons `BY-NC-ND` 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license of all the materials here.
+NMFTA would like these requirements to be as useful as possible. We are open to refining them based on your feedback and/or changes which you would like to see made. However, the NMFTA does not want other custom versions of the requirements to be proliferated. This is the reason for the [Creative Commons `BY-NC-ND` 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license of all the materials here.
 
 The NMFTA will take your request for changes in whatever form is most convenient to you; an email or phone call is sufficient. Github issues and pull requests are welcomed also.
