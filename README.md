@@ -27,7 +27,7 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 
 # Download
 
-[Download the latest (v1.2) release of *Telematics Cybersecurity Requirements Matrix* here](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/releases/download/v1.2/nmfta-telematics_security_requirements-v1.2.zip)
+[Download the latest (v1.3) release of *Telematics Cybersecurity Requirements Matrix* here](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/releases/download/v1.3/nmfta-telematics_security_requirements-v1.3.zip)
 
 # About
 
