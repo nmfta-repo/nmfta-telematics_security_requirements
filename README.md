@@ -1,4 +1,4 @@
-Cybersecurity requirements for telematics systems developed in collaboration with motor freight carriers, telematics service providers, and cybersecurity experts.
+The Cybersecurity Requirements for Telematics Systems matrix of requirements was developed in collaboration with motor freight carriers, telematics service providers, and cybersecurity experts.
 
 ![NMFTA Logo](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/image1.png)
 
@@ -6,7 +6,7 @@ This repository hosts a *Telematics Cybersecurity Requirements Matrix*; all docu
 
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-This matrix was initially developed during the project to create templates for use by motor freight carriers in procuring telematics solutions ([github nmfta-repo/nmfta-rfp_templates](https://github.com/nmfta-repo/nmfta-rfp_templates)) and is now actively developed and hosted here in its own project.
+This matrix of requirements was initially developed during the project to create templates for use by motor freight carriers in procuring telematics solutions ([github nmfta-repo/nmfta-rfp_templates](https://github.com/nmfta-repo/nmfta-rfp_templates)) and is now actively developed and hosted here in its own project.
 
 The purpose of this document is to provide government agency Fleet Managers and private industry stakeholders (e.g. TSPs, carriers, OEMs, Tier 1 suppliers, and others) responsible for the selection and procurement of Telematics, Fleet Management Information Systems (FMIS) and/or ELDs with situational awareness of potential cybersecurity risks of deploying such systems. It delivers a comprehensive list of cybersecurity requirements which should be satisfied by all components of a Telematics, Fleet Management Information System (FMIS) and/or Electronic Logging Devices (ELD) and includes validation steps for those federal agencies and private industry stakeholders in deploying such systems as well as vendor questionnaires.
 
@@ -40,7 +40,7 @@ The approach taken to create this list included consultations with many authorit
 
 ![Telematics systems diagram with labels](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/telematics-diagram.png)
 
-The report uses the following terms for the components of a Telematics, FMIS and/or ELD:
+The Cybersecurity Requirements for Telematics Systems matrix uses the following terms for the components of a Telematics, FMIS and/or ELD:
 
 -   *Physical In-Cab Device* – The component of Telematics, FMIS and/or ELD that is connected to vehicle networks. There may also be a Human Machine Interface aspect to this component. In cases where the HMI is a separate device from that which connects to vehicular networks then all the requirements identified as being applicable to the ‘Mobile App’ (see below) should be considered to apply to the HMI device.
 
@@ -54,19 +54,37 @@ A goal of the working group was to ensure that the stakeholders that procure the
 
 Furthermore, in recognition of the fact that the implementing cybersecurity for systems is an ongoing process for which there rarely is enough resources, the requirements have been each assigned a ‘criticality.’ These criticalities can be used to prioritize implementation by vendors or selection of vendors by purchasers.
 
-Whereas the matrix in this report does include a comprehensive list of cybersecurity requirements as they apply to the components of a Telematics, FMIS and/or ELDs, it does not contain any requirements which are novel or otherwise defined uniquely by this report. i.e. all requirements are referenced to the prior, authoritative sources.
+Whereas the Cybersecurity Requirements for Telematics Systems matrix does include a comprehensive list of cybersecurity requirements as they apply to the components of a Telematics, FMIS and/or ELDs, it does not contain any requirements which are novel or otherwise defined uniquely by this report. i.e. all requirements are referenced to the prior, authoritative sources.
 
-There are multiple authoritative sources to which the report could refer in the effort to include outward references for all of the cybersecurity requirements; at the time of drafting this report the authoritative references include, for example:
+There are multiple authoritative sources to which the report could refer in the effort to include outward references for all of the cybersecurity requirements; at the time of drafting this report the authoritative references include:
 
--   National Institute of Standards and Technology (NIST) 800-53: Security and Privacy Controls for Federal Information Systems and Organizations
+1.	National Institute of Standards and Technology, Computer Security Resource Center. “Federal Information Security Modernization Act (FISMA).” Last modified December 2014. Accessed February 2020. http://csrc.nist.gov/drivers/documents/FISMA-final.pdf
 
--   Cloud Security Alliance. Consensus Assessment Initiative Questionnaire (CAIQ)
+2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Federal Information Systems and Organizations.” Last modified January 2015. Accessed June 2019. https://doi.org/10.6028/NIST.SP.800-53r4  
 
--   Open Web Application Security Project (OWASP). Application Security Verification Standard (ASVS)
+3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf 
+
+4.	ETSI Technical Committee on Cybersecurity (TC CYBER). “TS 103 645.” Last modified February 2019. Accessed June 2019. https://www.etsi.org/deliver/etsi_ts/103600_103699/103645/01.01.01_60/ts_103645v010101p.pdf
+
+5.	Cloud Security Alliance. “Consensus Assessment Initiative Questionnaire (CAIQ).” Last modified September 2019. Accessed June 2019. https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-0-1/
+
+6.	Open Web Application Security Project (OWASP). “Application Security Verification Standard (ASVS).” Last modified March 2019. Accessed June 2019. https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.pdf 
+
+7.	Cyber ITL. “Methodology.” Accessed June 2019. https://cyber-itl.org/about/methodology/
+
+8.	ISO/IEC. “29147:2018 Information technology – Security techniques – Vulnerability disclosure.” Last modified Oct 2018. Accessed June 2019. https://www.iso.org/standard/72311.html 
+
+9.	Elazari, Amit. “#LegalBugBounty Hall of Fame.” Accessed June 2019. https://amitelazari.com/%23legalbugbounty-hof 
+
+10.	The Building Security In Maturity Model. “BSIMM.” Accessed June 2019. https://www.bsimm.com/download.html 
+
+11.	Open Web Application Security Project (OWASP). “Mobile Application Security Verification Standard (MASVS).” Accessed June 2019. https://github.com/OWASP/owasp-masvs/releases/tag/1.2RC
+
+12.	Klinedinst, D. CMU, US DOT, FMCSA Office of Analysis, Research and Technology et. al. . “Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles.” Lost modified May 11th 2020. Accessed May 12th 2020. https://rosap.ntl.bts.gov/view/dot/49248
 
 It is almost certainly true that there are other authoritative sources not included in the present references and expect future refinements of the requirements to include the addition of more references.
 
-# Requirements Matrix Description
+# Cybersecurity Requirements for Telematics Systems Requirements Matrix Description
 
 Each requirement captured is augmented with *Criticality*, *Verification Steps*, *Public Requirements References* etc. Please consider the example requirement below:
 
