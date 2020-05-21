@@ -84,6 +84,8 @@ There are multiple authoritative sources to which the report could refer in the 
 
 It is almost certainly true that there are other authoritative sources not included in the present references and expect future refinements of the requirements to include the addition of more references.
 
+With regards to the FMCSA report "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles" reference which is included in the references: the Cybersecurity Requirements for Telematics Systems Requirements matrix is aligned with the guidelines reccomended by the FMCSA in their report. However, there are some differences between the audiences of the FMCSA report and the Cybersecurity Requirements for Telematics Systems Requirements matrix and also some requirements in the matrix which do not have a corresponsing guideline in the FMCSA report. For more details on these topics please see [the NMFTA bulletin on the FMCSA "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles"](http://www.nmfta.org/documents/hvcs/NMFTA%20Bulletin%20on%20FMCSA%20Heavy%20Vehicles%20Telematics%20Cybersecurity%20Best%20Practices%20v1.0.pdf?v=1)
+
 # Cybersecurity Requirements for Telematics Systems Requirements Matrix Description
 
 Each requirement captured is augmented with *Criticality*, *Verification Steps*, *Public Requirements References* etc. Please consider the example requirement below:
