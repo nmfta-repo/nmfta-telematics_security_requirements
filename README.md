@@ -20,7 +20,7 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 
 | **Fleet Managers**   | **Telematics Providers** | **Independents**                                                |
 |:--------------------:|:------------------------:|:---------------------------------------------------------------:|
-|   Bill Brown, Retired Manager of Fleet Telematics  | Derek Held, Zonar Systems| Altaz Valani, Security Compass                                  |
+|   Bill Brown, Retired Manager of Fleet Telematics, SEFL  | Derek Held, Zonar Systems| Altaz Valani, Security Compass                                  |
 |                      | Geotab                   | Mr. Mark Zachos, President, DG Technologies                     |
 |                      |                          | Richard M. Litwinczuk, Senior Cybersecurity Engineer, Land Cyber Mission Assurance Program DND |
 
