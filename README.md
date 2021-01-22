@@ -38,23 +38,23 @@ The deployment of Telematics, FMIS and/or ELDs in motor vehicles is pervasive to
 
 A core objective of this document is to provide information to owners of Telematics, FMIS and/or ELDs in the phases of procurement of these systems so they can manage risks to security. An additional objective is to provide comprehensive cybersecurity requirements that can be consulted by the owner and potential vendors to provide sufficient information that can prioritize the needs for cybersecurity in the Telematics, FMIS and/or ELD and validate the presence of the controls upon delivery of the system.
 
-The approach taken to create this list included consultations with many authoritative sources of cybersecurity controls and then mapping them to the components of a Telematics, FMIS and/or ELD. To do this, the report considers a simplified model of a Telematics, FMIS and/or ELD. The four components of such a simplified system are broken down by *Physical In-cab*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end* and are depicted in the figure below:
+The approach taken to create this list included consultations with many authoritative sources of cybersecurity controls and then mapping them to the components of a Telematics, FMIS and/or ELD. To do this, the report considers a simplified model of a Telematics, FMIS and/or ELD. The four components of such a simplified system are broken down by *Vechicle Connection*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end* and are depicted in the figure below:
 
 ![Telematics systems diagram with labels](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/telematics-diagram.png)
 
 The Cybersecurity Requirements for Telematics Systems matrix uses the following terms for the components of a Telematics, FMIS and/or ELD:
 
--   *Physical In-Cab Device* – The component of Telematics, FMIS and/or ELD that is connected to vehicle networks. There may also be a Human Machine Interface (HMI) aspect to this component. In cases where the HMI is a separate device from that which connects to vehicular networks, then all the requirements identified as being applicable to the ‘Mobile App’ (see below) should be considered to apply to the HMI device.
+-   *Vehicle Connection Device* – The component of Telematics, FMIS and/or ELD that is connected to vehicle networks -- either tractor or trailer. There may also be a Human Machine Interface (HMI) aspect to this component. In cases where the HMI is a separate device from that which connects to vehicular networks, then all the requirements identified as being applicable to the ‘Mobile App’ (see below) should be considered to apply to the HMI device.
 
--   *Connectivity/Communications* – The component of a Telematics, FMIS and/or ELD which communicates data with the *Cloud or Back-end* (see below). This may or may not be the same device as the *Physical In-Cab Device*. In cases where they are the same device, both sets of the requirements identified as being applicable to a *Physical In-Cab Device* and the requirements identified as being applicable to *Connectivity/Communications* components should be considered to apply to the device.
+-   *Connectivity/Communications* – The component of a Telematics, FMIS and/or ELD which communicates data with the *Cloud or Back-end* (see below). This may or may not be the same device as the *Vehicle Connection Device*. In cases where they are the same device, both sets of the requirements identified as being applicable to a *Vehicle Connection Device* and the requirements identified as being applicable to *Connectivity/Communications* components should be considered to apply to the device.
 
 -   *Cloud or Back-end* – The component or components of a Telematics, FMIS and/or ELD which are internet facing, where data is collected, where commands or remote control of vehicular components are possible and where monitoring of the entire fleet or subsets thereof is made possible by dashboard or operations center features. In some cases, these components will be hosted by service providers, while in others they may be hosted by the owner. In either case, all the requirements identified as being applicable to *Cloud or Back-end* should be considered to apply to the device.
 
--   *Mobile App* – The component of a Telematics, FMIS and/or ELD, which presents Human Machine Interfaces to drivers or other users of the system, has its own communications paths to the *Cloud or Back-end* and may or may not be hosted in a device separate from the *Physical In-Cab Device,* but is otherwise able to connect to and communicate with that vehicular component.
+-   *Mobile App* – The component of a Telematics, FMIS and/or ELD, which presents Human Machine Interfaces to drivers or other users of the system, may or may not have its own communications paths to the *Cloud or Back-end* and may or may not be hosted in a device separate from the *Vehicle Connection Device,* but is otherwise able to connect to and communicate with that vehicular component.
 
 A goal of the working group was to ensure that stakeholders who procure equipment could also be capable of verifying that the equipment satisfies cybersecurity requirements. Therefore, each requirement includes a validation step which is intended to be executed by the purchaser. In some cases, the verification of the cybersecurity requirement requires more specialized knowledge than is reasonable to expect the purchaser to have. In these few cases, the validation steps recommend consulting a 3rd party report.
 
-In recognizing that the implementing cybersecurity for systems is an ongoing process for which there are rarely enough resources, each requirement has been each assigned a ‘criticality.’ These criticalities can be used to prioritize implementation by vendors or selection of vendors by purchasers.
+In recognizing that implementing cybersecurity for systems is an ongoing process for which there are rarely enough resources, each requirement has been each assigned a ‘criticality.’ These criticalities can be used to prioritize implementation by vendors or selection of vendors by purchasers.
 
 We have avoided any requirements that are novel or otherwise unique in favor of referencing publicly available authoritative sources; at the time of drafting this report the authoritative references include:
 
@@ -82,6 +82,8 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 12.	Klinedinst, D. CMU, US DOT, FMCSA Office of Analysis, Research and Technology et. al. . “Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles.” Lost modified May 11th 2020. Accessed May 12th 2020. https://rosap.ntl.bts.gov/view/dot/49248
 
+13. DHS, Binding Operational Directive 20-01. Last modified September 2, 2020. Accessed Jan 18th 2021. https://cyber.dhs.gov/bod/20-01/
+
 Additional authoritative sources will be included in future versions of this report.
 
 With regards to the FMCSA report "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles" reference which is included in the references: the Cybersecurity Requirements for Telematics Systems Requirements matrix is aligned with the guidelines recommended by the FMCSA in their report. However, there are some differences between the audiences of the FMCSA report and the Cybersecurity Requirements for Telematics Systems Requirements matrix and also some requirements in the matrix which do not have a corresponding guideline in the FMCSA report. For more details on these topics please see [the NMFTA bulletin on the FMCSA "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles."](http://www.nmfta.org/documents/hvcs/NMFTA%20Bulletin%20on%20FMCSA%20Heavy%20Vehicles%20Telematics%20Cybersecurity%20Best%20Practices%20v1.0.pdf?v=1)
@@ -99,7 +101,7 @@ The example requirement above demonstrates the form in which each requirement is
 shows a unique value assigned to the requirement for easy reference
 
 
-> ***Security Controls***
+> ***Category***
 
 groups like requirements together
 
@@ -150,7 +152,7 @@ shows comments or notes from the working group.
 
 # Questionnaire Description
 
-This project also provides a set of questionnaires, one for each of *Physical In-cab*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end*. These questionnaires can be sent in request to vendors to evaluate each of the applicable components of a telematics system that is being procured.
+This project also provides a set of questionnaires, one for each of *Vehicle Connection*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end*. These questionnaires can be sent in request to vendors to evaluate each of the applicable components of a telematics system that is being procured.
 
 ![Telematics systems diagram with labels](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/sample_questionnaire.png)
 
