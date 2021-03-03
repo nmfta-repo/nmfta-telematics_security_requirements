@@ -44,7 +44,7 @@ The approach taken to create this list included consultations with many authorit
 
 The Cybersecurity Requirements for Telematics Systems matrix uses the following terms for the components of a Telematics, FMIS and/or ELD:
 
--   *Vehicle Connection Device* – The component of Telematics, FMIS and/or ELD that is connected to vehicle networks -- either tractor or trailer. There may also be a Human Machine Interface (HMI) aspect to this component. In cases where the HMI is a separate device from that which connects to vehicular networks, then all the requirements identified as being applicable to the ‘Mobile App’ (see below) should be considered to apply to the HMI device.
+-   *Vehicle Connection Device* – The component of Telematics, FMIS and/or ELD that is connected to vehicle networks -- tractor and/or trailer. There may also be a Human Machine Interface (HMI) aspect to this component. In cases where the HMI is a separate device from that which connects to vehicular networks, then all the requirements identified as being applicable to the ‘Mobile App’ (see below) should be considered to apply to the HMI device.
 
 -   *Connectivity/Communications* – The component of a Telematics, FMIS and/or ELD which communicates data with the *Cloud or Back-end* (see below). This may or may not be the same device as the *Vehicle Connection Device*. In cases where they are the same device, both sets of the requirements identified as being applicable to a *Vehicle Connection Device* and the requirements identified as being applicable to *Connectivity/Communications* components should be considered to apply to the device.
 
