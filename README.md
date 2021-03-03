@@ -60,23 +60,23 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 1.	National Institute of Standards and Technology, Computer Security Resource Center. “Federal Information Security Modernization Act (FISMA).” Last modified December 2014. Accessed February 2020. http://csrc.nist.gov/drivers/documents/FISMA-final.pdf
 
-2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Federal Information Systems and Organizations.” Last modified January 2015. Accessed June 2019. https://doi.org/10.6028/NIST.SP.800-53r4  
+2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Federal Information Systems and Organizations.” Last modified January 2015. Accessed June 2019. https://doi.org/10.6028/NIST.SP.800-53r4
 
-3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf 
+3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf
 
 4.	ETSI Technical Committee on Cybersecurity (TC CYBER). “TS 103 645.” Last modified February 2019. Accessed June 2019. https://www.etsi.org/deliver/etsi_ts/103600_103699/103645/01.01.01_60/ts_103645v010101p.pdf
 
 5.	Cloud Security Alliance. “Consensus Assessment Initiative Questionnaire (CAIQ).” Last modified September 2019. Accessed June 2019. https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-0-1/
 
-6.	Open Web Application Security Project (OWASP). “Application Security Verification Standard (ASVS).” Last modified March 2019. Accessed June 2019. https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.pdf 
+6.	Open Web Application Security Project (OWASP). “Application Security Verification Standard (ASVS).” Last modified March 2019. Accessed June 2019. https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.pdf
 
 7.	Cyber ITL. “Methodology.” Accessed June 2019. https://cyber-itl.org/about/methodology/
 
-8.	ISO/IEC. “29147:2018 Information technology – Security techniques – Vulnerability disclosure.” Last modified Oct 2018. Accessed June 2019. https://www.iso.org/standard/72311.html 
+8.	ISO/IEC. “29147:2018 Information technology – Security techniques – Vulnerability disclosure.” Last modified Oct 2018. Accessed June 2019. https://www.iso.org/standard/72311.html
 
-9.	Elazari, Amit. “#LegalBugBounty Hall of Fame.” Accessed June 2019. https://amitelazari.com/%23legalbugbounty-hof 
+9.	Elazari, Amit. “#LegalBugBounty Hall of Fame.” Accessed June 2019. https://amitelazari.com/%23legalbugbounty-hof
 
-10.	The Building Security In Maturity Model. “BSIMM.” Accessed June 2019. https://www.bsimm.com/download.html 
+10.	The Building Security In Maturity Model. “BSIMM.” Accessed June 2019. https://www.bsimm.com/download.html
 
 11.	Open Web Application Security Project (OWASP). “Mobile Application Security Verification Standard (MASVS).” Accessed June 2019. https://github.com/OWASP/owasp-masvs/releases/tag/1.2RC
 
