@@ -85,6 +85,8 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 13. DHS, Binding Operational Directive 20-01. Last modified September 2, 2020. Accessed Jan 18th 2021. https://cyber.dhs.gov/bod/20-01/
 
+14. Open Web Application Security Project (OWASP). “Embedded Application Security Project.” Last modified September 2020. Accessed May 2021. https://owasp.org/www-project-embedded-application-security/ 
+
 Additional authoritative sources will be included in future versions of this report.
 
 With regards to the FMCSA report "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles" reference which is included in the references: the Cybersecurity Requirements for Telematics Systems Requirements matrix is aligned with the guidelines recommended by the FMCSA in their report. However, there are some differences between the audiences of the FMCSA report and the Cybersecurity Requirements for Telematics Systems Requirements matrix and also some requirements in the matrix which do not have a corresponding guideline in the FMCSA report. For more details on these topics please see [the NMFTA bulletin on the FMCSA "Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles."](http://www.nmfta.org/documents/hvcs/NMFTA%20Bulletin%20on%20FMCSA%20Heavy%20Vehicles%20Telematics%20Cybersecurity%20Best%20Practices%20v1.0.pdf?v=1)
