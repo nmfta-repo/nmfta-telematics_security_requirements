@@ -60,13 +60,13 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 1.	National Institute of Standards and Technology, Computer Security Resource Center. “Federal Information Security Modernization Act (FISMA).” Last modified December 2014. Accessed February 2020. http://csrc.nist.gov/drivers/documents/FISMA-final.pdf
 
-2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Federal Information Systems and Organizations.” Last modified January 2015. Accessed June 2019. https://doi.org/10.6028/NIST.SP.800-53r4
+2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Information Systems and Organizations.” Last modified December 2020. Accessed May 2021. https://doi.org/10.6028/NIST.SP.800-53r5
 
 3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf
 
-4.	ETSI Technical Committee on Cybersecurity (TC CYBER). “TS 103 645.” Last modified February 2019. Accessed June 2019. https://www.etsi.org/deliver/etsi_ts/103600_103699/103645/01.01.01_60/ts_103645v010101p.pdf
+4.	ETSI Technical Committee Cyber Security (TC CYBER). “EN 303 645.” Last modified April 2020. Accessed May 2021. https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.00_30/en_303645v020100v.pdf 
 
-5.	Cloud Security Alliance. “Consensus Assessment Initiative Questionnaire (CAIQ).” Last modified September 2019. Accessed June 2019. https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-0-1/
+5.	Cloud Security Alliance. “Consensus Assessment Initiative Questionnaire (CAIQ).” Last modified September 2019. Accessed May 2021. https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-1 
 
 6.	Open Web Application Security Project (OWASP). “Application Security Verification Standard (ASVS).” Last modified March 2019. Accessed June 2019. https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.pdf
 
@@ -83,6 +83,8 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 12.	Klinedinst, D. CMU, US DOT, FMCSA Office of Analysis, Research and Technology et. al. . “Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles.” Lost modified May 11th 2020. Accessed May 12th 2020. https://rosap.ntl.bts.gov/view/dot/49248
 
 13. DHS, Binding Operational Directive 20-01. Last modified September 2, 2020. Accessed Jan 18th 2021. https://cyber.dhs.gov/bod/20-01/
+
+14. Open Web Application Security Project (OWASP). “Embedded Application Security Project.” Last modified September 2020. Accessed May 2021. https://owasp.org/www-project-embedded-application-security/ 
 
 Additional authoritative sources will be included in future versions of this report.
 
