@@ -64,7 +64,7 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf
 
-4.	ETSI Technical Committee on Cybersecurity (TC CYBER). “TS 103 645.” Last modified February 2019. Accessed June 2019. https://www.etsi.org/deliver/etsi_ts/103600_103699/103645/01.01.01_60/ts_103645v010101p.pdf
+4.	ETSI Technical Committee Cyber Security (TC CYBER). “EN 303 645.” Last modified April 2020. Accessed May 2021. https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.00_30/en_303645v020100v.pdf
 
 5.	Cloud Security Alliance. “Consensus Assessment Initiative Questionnaire (CAIQ).” Last modified September 2019. Accessed June 2019. https://cloudsecurityalliance.org/artifacts/consensus-assessments-initiative-questionnaire-v3-0-1/
 
