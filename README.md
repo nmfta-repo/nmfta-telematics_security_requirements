@@ -62,7 +62,7 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Information Systems and Organizations.” Last modified December 2020. Accessed May 2021. https://doi.org/10.6028/NIST.SP.800-53r5
 
-3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf
+3.	CTIA Certification LLC. “Cybersecurity Certification Test Plan for IoT Devices.” (CCTPID) Last modified January 2021. Accessed June 2021. https://ctiacertification.org/wp-content/uploads/2020/10/CTIA-Cybersecurity-Test-Plan-1.2.2.pdf
 
 4.	ETSI Technical Committee Cyber Security (TC CYBER). “EN 303 645.” Last modified April 2020. Accessed May 2021. https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.00_30/en_303645v020100v.pdf 
 
