@@ -25,6 +25,7 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 |   Bill Brown, Retired Manager of Fleet Telematics, SEFL  | Derek Held, Zonar Systems| Altaz Valani, Security Compass                                  |
 |                      | Geotab                   | Mr. Mark Zachos, President, DG Technologies                     |
 |                      |                          | Richard M. Litwinczuk, Senior Cybersecurity Engineer, Land Cyber Mission Assurance Program DND |
+|                      |                          | Jacob D'Aoust, Junior Researcher, DeepMicro Limited |
 
 ![SEFL](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/SFL2c_300dpi-resized.jpg) ![Zonar Systems](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/zonar-logo-RGB-750.png) ![Geotab](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/geotab-logo_full-colour-rgb_resized.png) ![Security Compass](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/securitycompass-logo-resized.jpg) ![DG Technologies](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/dg-logo.png)
 
