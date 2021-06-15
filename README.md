@@ -60,7 +60,7 @@ We have avoided any requirements that are novel or otherwise unique in favor of 
 
 1.	National Institute of Standards and Technology, Computer Security Resource Center. “Federal Information Security Modernization Act (FISMA).” Last modified December 2014. Accessed February 2020. http://csrc.nist.gov/drivers/documents/FISMA-final.pdf
 
-2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Federal Information Systems and Organizations.” Last modified January 2015. Accessed June 2019. https://doi.org/10.6028/NIST.SP.800-53r4
+2.	National Institute of Standards and Technology, Computer Security Resource Center. “Security and Privacy Controls for Information Systems and Organizations.” Last modified December 2020. Accessed May 2021. https://doi.org/10.6028/NIST.SP.800-53r5
 
 3.	CTIA Certification LLC. “IoT Cybersecurity Certification Test Plan.” (ITCCTP) Last modified May 2019. Accessed June 2019. https://api.ctia.org/wp-content/uploads/2019/05/ctia_IoT_cybersecurity_pmd_ver-1_1.pdf
 
