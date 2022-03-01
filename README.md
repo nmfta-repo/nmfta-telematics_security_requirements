@@ -31,7 +31,7 @@ anonymous, we are deeply grateful to everyone who has given their time and energ
 
 # Download
 
-[Download the latest (v1.4) release of *Telematics Cybersecurity Requirements Matrix* here](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/releases/download/v1.4/nmfta-telematics_security_requirements-v1.4.zip)
+[Download the latest (v1.5) release of *Telematics Cybersecurity Requirements Matrix* here](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/releases/download/v1.5/nmfta-telematics_security_requirements-v1.5.zip)
 
 # About
 
@@ -39,7 +39,7 @@ The deployment of Telematics, FMIS and/or ELDs in motor vehicles is pervasive to
 
 A core objective of this document is to provide information to owners of Telematics, FMIS and/or ELDs in the phases of procurement of these systems so they can manage risks to security. An additional objective is to provide comprehensive cybersecurity requirements that can be consulted by the owner and potential vendors to provide sufficient information that can prioritize the needs for cybersecurity in the Telematics, FMIS and/or ELD and validate the presence of the controls upon delivery of the system.
 
-The approach taken to create this list included consultations with many authoritative sources of cybersecurity controls and then mapping them to the components of a Telematics, FMIS and/or ELD. To do this, the report considers a simplified model of a Telematics, FMIS and/or ELD. The four components of such a simplified system are broken down by *Vechicle Connection*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end* and are depicted in the figure below:
+The approach taken to create this list included consultations with many authoritative sources of cybersecurity controls and then mapping them to the components of a Telematics, FMIS and/or ELD. To do this, the report considers a simplified model of a Telematics, FMIS and/or ELD. The four components of such a simplified system are broken down by *Vehicle Connection*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end* and are depicted in the figure below:
 
 ![Telematics systems diagram with labels](https://raw.githubusercontent.com/nmfta-repo/nmfta-telematics_security_requirements/master/media/telematics-diagram.png)
 
@@ -164,4 +164,38 @@ This project also provides a set of questionnaires, one for each of *Vehicle Con
 
 NMFTA would like these requirements to be as useful as possible. We are open to refining them based on your feedback and/or changes which you would like to see made. However, the NMFTA does not want other custom versions of the requirements to be proliferated. This is the reason for the [Creative Commons `BY-NC-ND` 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license of all the materials here.
 
-The NMFTA will take your request for changes in whatever form is most convenient to you; an email or phone call is sufficient. Github issues and pull requests are welcomed also.
+The NMFTA will take your request for changes in whatever form is most convenient to you; an email or phone call is sufficient. GitHub issues and pull requests are welcomed also.
+
+
+# Change History
+
+## v1.5 (2022 Feb)
+
+* updated NIST 800-53 outward references to match r5 (of 800-53)
+* corrected format of outward references to FMCSA document
+* updated outward references to match TS 103 645 v1.1.1 revision of ETSI document
+* updated outward references to newest CAIQ version
+* added outward references to OWASP to 10
+* added outward references to UL 1376
+* added new requirements in response to gaps identified relative to UL 1376: SCP-140, CM-040, M-040, SCP-092, SII-041, and SAA-050
+
+
+## v1.4 (2021 Mar)
+
+* the wording and diagrams in the project are updated to clearly indicate that these requirements apply to trailer telematics and OEM telematics
+* renamed 'security control' matrix column to 'category'
+* added references to CISA BOD 20-01 to requirements for vulnerability disclosure programs
+
+
+## v1.3 (2020 May)
+
+* added new requirements to reflect the 'GDL' guidelines of the FMCSA report report, Cybersecurity Best Practices for Integration/Retrofit of Telematics and Aftermarket Electronic Systems into Heavy Vehicles and also added GDL references to existing matrix requirements where the GDLs were relevant. These changes were reviewed by the working group. See #8
+* added new requirements to capture disposal of goods process requirements. This material was reviewed by the working group. See #10
+* reformatted the 'Supplier Questionnaire' tab for better readability.
+* added more introductory material to the README in order to better describe how to use the requirements and questionnaires.
+* reformatted the 'Printable Matrix' tab to make it more suitable to include as an appendix when printed. Bigger font, more page breaks, headers and footers. See #9
+
+
+## v1.2 (2019 Dec)
+
+For this release, the Telematics Cybersecurity Requirements Matrix was extracted from release 1.1 of nmfta-repo/nmfta-rfp_templates. The v1.2 matches the contents of that release.
