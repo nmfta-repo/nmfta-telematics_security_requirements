@@ -4,6 +4,13 @@ The Cybersecurity Requirements for Telematics Systems matrix of requirements was
 
 This repository hosts a *Telematics Cybersecurity Requirements Matrix*; all documents are licensed under the [Creative Commons `BY-NC-ND` 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/):
 
+The current development version [![Requirements Publish](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/actions/workflows/publish.yml/badge.svg)](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/actions/workflows/publish.yml):
+* [is available to browse online](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/)
+* [is available in Requirements Interchange Format (ReqIF)](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/output.reqif)
+* [is available as supplier questionnaires in excel format](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/tsrm_questionnaires.xlsx)
+
+See 'Download' below or 'Releases' tab to the right to get the latest official release.
+
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 This matrix of requirements was initially developed during the project to create templates for use by motor freight carriers in procuring telematics solutions ([github nmfta-repo/nmfta-rfp_templates](https://github.com/nmfta-repo/nmfta-rfp_templates)) and is now actively developed and hosted here in its own project.
@@ -168,6 +175,12 @@ The NMFTA will take your request for changes in whatever form is most convenient
 
 
 # Change History
+
+## v1.6 (release candidate)
+
+* migrated all requirements out of excel in `Telematics Cybersecurity Requirements Matrix.xlsx` and into [strictdoc](https://github.com/strictdoc-project/strictdoc/) format in `Telematics_Security_Requirements_Matrix.sdoc`
+* automatic builds of html, Requirements Interchange Format (ReqIF) and supplier questionnaires added
+* TODO changes from Jonathan Stines and colleagues at Samsara (thank you!) to add NIST 800-82 references c.f. https://github.com/nmfta-repo/vcr-experiment/pull/58
 
 ## v1.5 (2022 Feb)
 
