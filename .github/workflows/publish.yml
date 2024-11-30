@@ -42,6 +42,7 @@ jobs:
           mkdir -p docs/
           strictdoc export . --formats=html,reqif-sdoc --output-dir docs/
           cp -pr media docs/html/nmfta-telematics_security_requirements/
+          cp -pr docs/reqif/* docs/html/
 
       - name: Run custom questionnaire export script
         run: |
