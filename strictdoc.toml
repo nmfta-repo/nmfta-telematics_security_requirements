@@ -1,0 +1,8 @@
+[project]
+
+title = "Cybersecurity requirements for telematics systems developed in collaboration with motor freight carriers, telematics service providers and cybersecurity experts."
+
+include_doc_paths = [
+  "*.sdoc"
+]
+
