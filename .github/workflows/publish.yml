@@ -4,9 +4,9 @@ name: automated builds of html, reqif, and questionnaires
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   schedule: # 12AM daily
     - cron: '0 0 * * *'
 
