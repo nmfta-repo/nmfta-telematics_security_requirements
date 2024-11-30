@@ -337,15 +337,15 @@ shown below:
 The example requirement above demonstrates the form in which each
 requirement is presented in Appendix A.
 
-   **Ref #**
+   **UID**
 
 shows a unique value assigned to the requirement for easy reference
 
-   **Category**
+   **CATEGORY**
 
 groups like requirements together
 
-   **Criticality**
+   **CRITICALITY**
 
 assigns a ‘priority’: a recommendation to the purchaser for each
 requirement:
@@ -362,16 +362,13 @@ requirement:
 
 ..
 
-   **Applicable Component Categories**
+   **CHILDREN**
 
-shows to which of the components of the Telematics, FMIS and/or ELD that
-this requirement applies.
+Captures the applicable component categories; shows to which of the components of the Telematics, FMIS and/or ELD that this requirement applies by listing the child requirements that are specific to Cloud, Connectivity, Mobile, or Vehicle Connection components.
 
-   **Public Requirements References / Descriptions**
+   **PUB_REFS**
 
-shows as many external authoritative requirements as were known to the
-working group at the time of this draft. These references are included
-so that
+Captures the public requirements references / descriptions from external authoritative requirements as were known to the working group at the time of this draft. These references are included so that
 
 -  Purchasers can easily refer to the referenced sections of the
    document for further clarification on what are acceptable norms when
@@ -383,14 +380,14 @@ so that
 
 ..
 
-   **Requirement**
+   **STATEMENT**
 
-shows the requirement as it applies to the components of a Telematics,
+Shows the requirement as it applies to the components of a Telematics,
 FMIS and/or ELD. The working group made every effort to make these
 requirements shorter and more succinct than the authoritative external
 references.
 
-   **Verification**
+   **VERIFICATION**
 
 shows the steps which can be executed by purchasers to confirm that a
 given Telematics, FMIS and/or ELD satisfies this requirement. There are
@@ -422,9 +419,9 @@ sufficient.
 
 ..
 
-   **Remarks**
+   **COMMENT**
 
-shows comments or notes from the working group.
+Shows comments or notes from the working group.
 [/FREETEXT]
 
 [/SECTION]
