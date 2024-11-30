@@ -53,7 +53,7 @@ The NMFTA will take your request for changes in whatever form is most convenient
 
 * migrated all requirements out of excel in `Telematics Cybersecurity Requirements Matrix.xlsx` and into [strictdoc](https://github.com/strictdoc-project/strictdoc/) format in `Telematics_Security_Requirements_Matrix.sdoc`
 * automatic builds of html, Requirements Interchange Format (ReqIF) and supplier questionnaires added
-* TODO changes from Jonathan Stines and colleagues at Samsara (thank you!) to add NIST 800-82 references c.f. https://github.com/nmfta-repo/vcr-experiment/pull/58
+* changes from Jonathan Stines and colleagues at Samsara (thank you!) to add NIST 800-82 references c.f. https://github.com/nmfta-repo/vcr-experiment/pull/58
 
 ## v1.5 (2022 Feb)
 
