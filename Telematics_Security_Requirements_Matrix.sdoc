@@ -135,11 +135,11 @@ and/or Electronic Logging Devices (ELD), including validation steps for
 federal agencies and private industry stakeholders when deploying such
 systems.
 
-The audience for this report is the agencies and private industry stakeholders responsible for the selection and procurement of Telematics, Fleet Management Information Systems (FMIS) and/or ELDs, as was the case in the previously released “Telematics Cybersecurity Primer for Agencies” report. The working group believes that any stakeholder that must procure Telematics, FMIS and/or ELDs will also find the requirements outlined in this document relevant. The complete list of requirements outlined in Appendix A will remain a living document which can respond to feedback from industry and technical experts. The requirements are hosted at https://github.com/nmfta-repo/nmfta- telematics_security_requirements and readers are encouraged to check there for updates to, and to offer feedback on, the requirements.
+The audience for this report is the agencies and private industry stakeholders responsible for the selection and procurement of Telematics, Fleet Management Information Systems (FMIS) and/or ELDs, as was the case in the previously released “Telematics Cybersecurity Primer for Agencies” report. The working group believes that any stakeholder that must procure Telematics, FMIS and/or ELDs will also find the requirements outlined in this document relevant. The complete list of requirements outlined in Appendix A will remain a living document which can respond to feedback from industry and technical experts. The requirements are hosted at https://github.com/nmfta-repo/nmfta-telematics_security_requirements and readers are encouraged to check there for updates to, and to offer feedback on, the requirements.
 
 The comprehensive list of cybersecurity requirements for Telematics, FMIS and/or ELDs presented here was developed in collaboration with a diverse working group. The requirements are prioritized and include references to public authoritative sources containing more information, should the reader require additional details. The complete listing will provide purchasers with sufficient information to prioritize the need for cybersecurity in the Telematics, FMIS and/or ELD as well as validate the presence of the controls upon delivery of a system.
 
-It is the recommendation of the working group that agencies and private stakeholders use these cybersecurity requirements when procuring new Telematics, FMIS and/or ELDs as well as when evaluating their current systems when the need to evaluate cybersecurity arises. The working group continues to refine the requirements and the reader is encouraged to visit https://github.com/nmfta- repo/nmfta-telematics_security_requirements to obtain the most up-to-date copy of the requirements, which is also available in a supplier questionnaire format. The site should also be used to give feedback to the working group on ways that the requirements can be further refined. It is NMFTA’s recommendation that motor freight carriers use these requirements as a natural successor to “Telematics Cybersecurity Primer for Agencies.”
+It is the recommendation of the working group that agencies and private stakeholders use these cybersecurity requirements when procuring new Telematics, FMIS and/or ELDs as well as when evaluating their current systems when the need to evaluate cybersecurity arises. The working group continues to refine the requirements and the reader is encouraged to visit https://github.com/nmfta-repo/nmfta-telematics_security_requirements to obtain the most up-to-date copy of the requirements, which is also `available in a supplier questionnaire format <../tsrm_questionnaires.xlsx>`_. The site should also be used to give feedback to the working group on ways that the requirements can be further refined. It is NMFTA’s recommendation that motor freight carriers use these requirements as a natural successor to “Telematics Cybersecurity Primer for Agencies.”
 
 The complete list of cybersecurity requirements can be found in Appendix A. Requirements are prioritized for use by stakeholders via a Criticality field to encourage adoption incrementally. These requirements are presented for all the components of a Telematics, FMIS and/or ELD: Vehicle Connection, Connectivity/Communications, Mobile App, and Cloud or Back-end and must be taken in their entirety for any assurances of cybersecurity to be realized.
 [/FREETEXT]
@@ -422,6 +422,22 @@ sufficient.
    **COMMENT**
 
 Shows comments or notes from the working group.
+[/FREETEXT]
+
+[/SECTION]
+
+[SECTION]
+TITLE: Questionnaire Description
+
+[FREETEXT]
+This project `available in a supplier questionnaire format <../tsrm_questionnaires.xlsx>`_, one sheet for each of *Vehicle Connection*, *Connectivity/Communications*, *Mobile App*, and *Cloud or Back-end*.
+
+.. image:: media/sample_questionnaire.png
+   :alt: Questionnaire Excerpt
+   :class: image
+
+
+These questionnaires can be sent in request to vendors to evaluate each of the applicable components of a telematics system that is being procured.
 [/FREETEXT]
 
 [/SECTION]
