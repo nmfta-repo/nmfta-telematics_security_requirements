@@ -6,7 +6,7 @@ This repository hosts a *Telematics Cybersecurity Requirements Matrix*; all docu
 
 The current development version [![Requirements Publish](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/actions/workflows/publish.yml/badge.svg)](https://github.com/nmfta-repo/nmfta-telematics_security_requirements/actions/workflows/publish.yml):
 * is available to browse online:
-  * [as document]([https://nmfta-repo.github.io/nmfta-telematics_security_requirements/](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/nmfta-telematics_security_requirements/Telematics_Security_Requirements_Matrix.html))
+  * [as a interactive document](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/nmfta-telematics_security_requirements/Telematics_Security_Requirements_Matrix.html)
   * [and as the more familiar table as well](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/nmfta-telematics_security_requirements/Telematics_Security_Requirements_Matrix-TABLE.html#10-Appendix-A)
 * [is available in Requirements Interchange Format (ReqIF)](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/output.reqif)
 * [is available as supplier questionnaires in excel format](https://nmfta-repo.github.io/nmfta-telematics_security_requirements/tsrm_questionnaires.xlsx)
