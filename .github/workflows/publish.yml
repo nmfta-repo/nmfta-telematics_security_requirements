@@ -39,8 +39,9 @@ jobs:
 
       - name: Run strictdoc exports
         run: |
-          mkdir -p docs/html/
-          strictdoc export . --formats=html,reqif-sdoc --output-dir docs/html/
+          mkdir -p docs/
+          strictdoc export . --formats=html,reqif-sdoc --output-dir docs/
+          cp -pr media docs/html/nmfta-telematics_security_requirements/
 
       - name: Run custom questionnaire export script
         run: |
