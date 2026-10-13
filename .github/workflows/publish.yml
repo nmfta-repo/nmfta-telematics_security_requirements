@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: "3.11"
 
       - name: Install strictdoc
         run: |
@@ -47,22 +47,22 @@ jobs:
       - name: Run custom questionnaire export script
         run: |
           mkdir -p docs
-          python scripts/export_questionnaires.py export . --output-dir=docs/html/
+          python scripts/export_questionnaires.py . --output-dir=docs/html/
 
       - name: Upload html pages
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: html-pages
           path: docs/html/
 
       - name: Upload Requirements Interchange Format (ReqIF) export
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: reqif-export
           path: docs/reqif/output.reqif
 
       - name: Upload supplier questionnaires
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: questionnaires
           path: docs/html/tsrm_questionnaires.xlsx
