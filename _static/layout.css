@@ -33,6 +33,7 @@
 
 .layout_tree {
   grid-area: tree;
+  min-width: 0;
 }
 
 .layout_toc,
@@ -62,12 +63,12 @@
   min-width: 0;
 }
 
-/*  */
-
-.section-number {
-  margin-right: .5rem;
-  font-size: 0.85em;
-  font-weight: bold;
+.layout_main > [data-ea-publisher].loaded {
+  /*
+    DEV: We provide space in the sidebar.
+    Inserting it into the central container breaks the layout, so we suppress it here.
+  */
+  display: none !important;
 }
 
 /* messages */
@@ -82,9 +83,11 @@
   pointer-events: none;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   /* align-items: flex-end */
   align-items: center;
+  gap: var(--base-rhythm);
 
   padding: calc(var(--base-rhythm)*10);
 }
@@ -102,6 +105,10 @@ sdoc-toast {
 
 sdoc-toast:not(:empty) {
   padding: .75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 sdoc-toast a,
@@ -112,4 +119,26 @@ sdoc-toast a:visited {
 
 sdoc-toast a:hover {
   color: var(--color-fg-accent);
+}
+
+/* .toast {} */
+
+.toast-close {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.toast-warn {
+  color: inherit;
+  background: var(--color-highlight-danger);
+}
+
+.toast-loud {
+  color: var(--color-bg-main);
+  background: inherit;
 }

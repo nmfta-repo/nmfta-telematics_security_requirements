@@ -1,6 +1,7 @@
 // This code in this file is a simplified version of the StackOverflow answer
 // taken from: https://stackoverflow.com/a/33948409/598057.
 
+(function () {
 const MOUSEMOVE_SPEED_FACTOR = 1;
 const KEYDOWN_SPEED_FACTOR = 20;
 const PWS_SELECTOR = "[js-pan_with_space]";
@@ -18,19 +19,44 @@ window.addEventListener('load', function () {
     startY: 0
   }
 
+  var grabbingStyle = document.createElement('style');
+  grabbingStyle.textContent = '* { cursor: grabbing !important; }';
+
+  function setGrabbing(on) {
+    if (on) {
+      document.head.appendChild(grabbingStyle);
+    } else if (grabbingStyle.parentNode) {
+      grabbingStyle.parentNode.removeChild(grabbingStyle);
+    }
+  }
+
   const element = getPanElement();
   if (element) {
     console.assert(!!element, "Expected a valid element.");
 
     document.addEventListener("keydown", function (e) {
+      var tag = document.activeElement && document.activeElement.tagName;
+      var isEditable = tag === 'INPUT' || tag === 'TEXTAREA' || document.activeElement.isContentEditable;
+
       if (e.key === ' ' || e.key === 'Spacebar') {
         // ' ' is standard, 'Spacebar' was used by IE9 and Firefox < 37
+
+        if (isEditable) {
+          return;
+        }
 
         e.preventDefault();
         e.stopPropagation();
         state.spacePressed = true;
-        element.style.cursor = 'move';
+        element.style.cursor = 'grab';
         element.style.scrollBehavior = 'auto';
+        return;
+      }
+
+      // Arrow keys are also used for normal text/caret navigation and for
+      // navigating dropdown options (e.g. the autocomplete field), so they
+      // must not pan the diagram while an editable element has focus.
+      if (isEditable) {
         return;
       }
 
@@ -64,6 +90,11 @@ window.addEventListener('load', function () {
     document.addEventListener("keyup", function (e) {
       if (e.key === ' ' || e.key === 'Spacebar') {
         // ' ' is standard, 'Spacebar' was used by IE9 and Firefox < 37
+        var tag = document.activeElement && document.activeElement.tagName;
+        var isEditable = tag === 'INPUT' || tag === 'TEXTAREA' || document.activeElement.isContentEditable;
+        if (isEditable) {
+          return;
+        }
         e.preventDefault();
         e.stopPropagation();
         state.spacePressed = false;
@@ -71,6 +102,13 @@ window.addEventListener('load', function () {
         element.style.scrollBehavior = '';
       }
     });
+
+    element.addEventListener("click", function (e) {
+      if (state.spacePressed) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    }, true);
 
     element.addEventListener("mousedown", function (e) {
       if (!state.spacePressed) {
@@ -89,6 +127,7 @@ window.addEventListener('load', function () {
       var mouseY = parseInt(e.clientY);
 
       state.isDown = true;
+      setGrabbing(true);
     });
 
     element.addEventListener("mouseup", function (e) {
@@ -100,6 +139,7 @@ window.addEventListener('load', function () {
       e.stopPropagation();
 
       state.isDown = false;
+      setGrabbing(false);
     });
 
     element.addEventListener("mousemove", function (e) {
@@ -135,6 +175,7 @@ window.addEventListener('load', function () {
       e.stopPropagation();
 
       state.isDown = false;
+      setGrabbing(false);
     });
   }
 });
@@ -149,3 +190,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     firstNode && firstNode.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   }
 });
+})();
